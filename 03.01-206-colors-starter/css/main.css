@@ -62,6 +62,9 @@ footer {
   header {
     background-color: cyan;
   }
+  .col-3 {
+    width: 50%;
+  }
 
   #column-1 {
     background-color: darkcyan;
@@ -73,6 +76,7 @@ footer {
 
   #column-3 {
     background-color: darkseagreen;
+    min-width: 100%;
   }
 
   footer {
@@ -87,6 +91,9 @@ footer {
   header {
     background-color:blanchedalmond ;
   }
+  .col-3 {
+    width: 33.33%;
+  }
 
   #column-1 {
     background-color:burlywood ;
@@ -98,6 +105,7 @@ footer {
 
   #column-3 {
     background-color: coral;
+    min-width: inherit;
   }
 
   footer {
